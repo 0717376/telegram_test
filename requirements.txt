@@ -1,1 +1,1 @@
-pip install pytelegrambotapi
+pip3 install pytelegrambotapi
