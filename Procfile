@@ -1,1 +1,0 @@
-worker: python telegramm.py
