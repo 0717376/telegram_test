@@ -1,0 +1,6 @@
+git init
+heroku create "telegramm.py" 
+git remote -v
+git add .
+git commit -m "commit"
+git push heroku master
