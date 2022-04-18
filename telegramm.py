@@ -10,6 +10,6 @@ def start(m, res=False):
 # Получение сообщений от юзера
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-    bot.send_message(message.chat.id, 'Лена, не пиши мне: "' + str(message.text.upper() + '", лучше сходи покушай'))
+    bot.send_message(message.chat.id, 'В твоем сообщении вот сколько букв: ' + len(message.text))
 # Запускаем бота
 bot.polling(none_stop=True, interval=0)
